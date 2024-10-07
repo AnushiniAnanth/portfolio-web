@@ -1,0 +1,213 @@
+/* Reset some default styles */
+* {
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+}
+/*dark mode*/
+.dark-mode {
+    background-color: black;
+    color: white;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding-top: 20px;
+   
+}
+#b1{
+    width: 80; 
+    height: 50px;
+     align-items: right;
+
+}
+
+.container {
+    
+     align-content: center;
+     align-items: center;
+     text-align: center;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px; 
+}
+.pro1{
+     display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+    background-color: #cfe4f5;
+    padding: 15px;
+    gap: 15px;
+    position: relative;
+    
+    justify-content: center;
+    position: relative;
+    
+
+}
+.skill{
+    padding: 25px;
+    gap: 25px;
+    border-spacing: 30px;
+
+}
+#more {display: none;}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+    background-color: #cfe4f5;
+    padding: 15px;
+    gap: 15px;
+    position: relative;
+    
+    justify-content: center;
+    position: relative;
+    
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 55px;
+  }
+  .pro1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+    background-color: #2196F3;
+    
+    padding: 15px;
+    gap: 15px;
+    position: relative;
+    
+    justify-content: center;
+    position: relative;
+    
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 55px;
+  }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    background-color: #2196F3;
+    padding: 15px;
+    border-radius: 55px;
+    position: relative;
+    
+    justify-content: center;
+
+  }
+  
+  .grid-container > div {
+    height:50%;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 55px;
+    position: relative;
+    justify-items: center;
+
+  }
+  
+
+header {
+    background: #f8f7f7;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 90px;
+    border-bottom: #151615 3px solid;
+    align-content: left;
+    align-items: left;
+    text-align: left;
+    
+    
+}
+.h1{
+    text-shadow:10px,10px,13px,blue;
+
+}
+header h1 {
+    float: left;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+header p {
+    display: inline;
+    padding: 10px 20px 10px 20px;
+    float: right;
+    font-size: 1.2em;
+}
+img{
+    align-items: center;
+}
+
+
+
+
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    display: none; /* Hidden by default */
+}
+
+.submit-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+
+.contact-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
